@@ -1,0 +1,69 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#container {}
+
+#header {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#navbar {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#main {}
+
+#menu {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 20%;
+	height: 100%;
+}
+
+#content {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 70%;
+	height: 100%;
+}
+
+#sidebar {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 6.5%;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+a {
+	text-decoration: none;
+}
+
+#header h1 {
+	text-align: center;
+}
+
+#navbar {
+	text-align: center;
+}
+
+#footer div p {
+	text-align: center;
+	font-size: 10px;
+}
+
+#footer div a {
+	font-size: 10px;
+}

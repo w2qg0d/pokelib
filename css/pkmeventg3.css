@@ -1,0 +1,103 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#navbar {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#menu {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 15%;
+	height: 100%;
+}
+
+#content {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 75%;
+	height: 100%;
+}
+
+#sidebar {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 6.5%;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+#header h1 {
+	text-align: center;
+}
+
+#navbar {
+	text-align: center;
+}
+
+#footer div p {
+	text-align: center;
+	font-size: 10px;
+}
+
+#footer div a {
+	font-size: 10px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+#switch {
+	margin: 10px;
+	padding: 5px 0px 5px 520px;
+	border: 1px dashed blue;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#timeline {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#category {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#categorytable {
+	margin: 10px;
+	width: 1000px;
+}
+
+#categorytable table {
+	width: 100%;
+}
+
+#categorytable table th {
+	border: 1px dashed blue;
+}
+
+#categorytable table td {
+	height: 80px;
+	text-align: center;
+	border: 1px dashed blue;
+}

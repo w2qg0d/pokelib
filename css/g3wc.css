@@ -1,0 +1,306 @@
+/*-----------------------------------------------框架---------------------------------------------------------*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#navbar {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#menu {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 20%;
+	height: 100%;
+}
+
+#content {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 70%;
+	height: 100%;
+}
+
+#sidebar {
+	float: left;
+	margin: 10px;
+	border: 1px dashed blue;
+	width: 6.5%;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+/*-----------------------------------------------基本设置-------------------------------------------------------*/
+a {
+	text-decoration: none;
+}
+
+#navbar {
+	text-align: center;
+}
+
+#content {
+	font-size: 0.875em;
+	font-size: calc;
+	line-height: 1.8;
+}
+
+#footer div p {
+	text-align: center;
+	font-size: 10px;
+}
+
+#footer div a {
+	font-size: 10px;
+}
+
+#wc1 {
+	margin: 10px;
+}
+
+/*-----------------------------------------------控制-----------------------------------------------------------*/
+.w_50 {
+	width: 50%;
+}
+
+.w_100 {
+	width: 100%;
+}
+
+.bw_1 {
+	border-width: 1px;
+}
+
+.bw_3 {
+	border-width: 3px;
+}
+
+.bs_s {
+	border-style: solid;
+}
+
+.br_6 {
+	border-radius: 6px;
+}
+
+.br_10 {
+	border-radius: 10px;
+}
+
+.br_5000 {
+	border-radius: 5px 0px 0px 0px;
+}
+
+.br_0500 {
+	border-radius: 0px 5px 0px 0px;
+}
+
+.br_0050 {
+	border-radius: 0px 0px 5px 0px;
+}
+
+.br_0005 {
+	border-radius: 0px 0px 0px 5px;
+}
+
+.br_5500 {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.br_0055 {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.ta_c {
+	text-align: center;
+}
+
+.ta_l {
+	text-align: left;
+}
+
+.lh_0 {
+	line-height: 0px;
+}
+
+.lh_12 {
+	line-height: 12px;
+}
+
+.va_m {
+	vertical-align: middle;
+}
+
+/*-----------------------------------------------颜色相关-------------------------------------------------------*/
+.bc_龙_7766ee {
+	border-color: #7766ee;
+}
+
+.bc_龙_a194ff {
+	border-color: #a194ff;
+}
+
+.bgc_龙_7766ee {
+	background-color: #7766ee;
+}
+
+.bgc_龙_a194ff {
+	background-color: #a194ff;
+}
+
+.bc_超能力_d00053 {
+	border-color: #d00053;
+}
+
+.bgc_超能力_d00053 {
+	background-color: #d00053;
+}
+
+.bgc_超能力_ff9cc4 {
+	background-color: #ff9cc4;
+}
+
+.bgc_超能力_ff5599 {
+	background-color: #ff5599;
+}
+
+.bc_一般_8a8a7b {
+	border-color: #8a8a7b;
+}
+
+.bgc_一般_e7e7d8 {
+	background-color: #e7e7d8;
+}
+
+.bc_变化_999999 {
+	border-color: #999999;
+}
+
+.bc_特殊_2266cc {
+	border-color: #2266cc;
+}
+
+.c_性格 {
+	color: #010101;
+}
+
+.c_HP {
+	color: #558936;
+}
+
+.c_攻击 {
+	color: #ccbc33;
+}
+
+.c_防御 {
+	color: #b4673d;
+}
+
+.c_特攻 {
+	color: #1a7e8d;
+}
+
+.c_特防 {
+	color: #004689;
+}
+
+.c_速度 {
+	color: #3c2957;
+}
+
+.bgc_white {
+	background-color: #fff;
+}
+
+/*-----------------------------------------------各种图标---------------------------------------------------------*/
+.雄 {
+	display: inline-block;
+	font-size: 11px;
+	min-width: 14px;
+	text-align: center;
+	box-sizing: border-box;
+	height: 14px;
+	border-radius: 8px;
+	border: none;
+	background-color: #1140E1;
+	color: #FFFFFF;
+	line-height: 12px;
+}
+
+.雌 {
+	display: inline-block;
+	font-size: 11px;
+	min-width: 14px;
+	text-align: center;
+	box-sizing: border-box;
+	height: 14px;
+	border-radius: 8px;
+	border: none;
+	background-color: #D11E2C;
+	color: #FFFFFF;
+	line-height: 12px;
+}
+
+.红宝石图标 {
+	border-radius: 4px;
+	background-color: #bf0109;
+	color: #fff;
+}
+
+.蓝宝石图标 {
+	border-radius: 4px;
+	background-color: #3862ae;
+	color: #fff;
+}
+
+.绿宝石图标 {
+	border-radius: 4px;
+	background-color: #00a000;
+	color: #fff;
+}
+
+/*-----------------------------------------------边框设置---------------------------------------------------------*/
+.b_1s7766ee {
+	border: 1px solid #7766ee;
+}
+
+.b_3s7766ee {
+	border: 3px solid #7766ee;
+}
+
+.b_1sa194ff {
+	border: 1px solid #a194ff;
+}
+
+.b_3sa194ff {
+	border: 3px solid #a194ff;
+}
+
+.b_3sd00053 {
+	border: 3px solid #d00053;
+}
+
+/*-----------------------------------------------技能颜色---------------------------------------------------------*/
+.招式_一般变化 {
+	border: 3px solid #999999;
+	background-color: #e7e7d8;
+}
+
+.招式_超能力特殊 {
+	border: 3px solid #2266cc;
+	background-color: #ff9cc4;
+}
