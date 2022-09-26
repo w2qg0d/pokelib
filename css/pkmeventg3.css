@@ -97,8 +97,11 @@ a {
 }
 
 #categorytable table td {
-	width: 200px;
 	height: 80px;
 	text-align: center;
 	border: 1px dashed blue;
+}
+
+table table td {
+	width: 20%;
 }
