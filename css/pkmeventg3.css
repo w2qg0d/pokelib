@@ -85,7 +85,7 @@ a {
 
 #categorytable {
 	margin: 10px;
-	width: 1000px;
+	width: 1500px;
 }
 
 #categorytable table {
@@ -103,5 +103,5 @@ a {
 }
 
 table table td {
-	width: 40%;
+	width: 20%;
 }
