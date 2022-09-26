@@ -1,29 +1,28 @@
-// var timeline = document.getElementById('timeline');
-// var category = document.getElementById('category');
-// var show_timeline = document.getElementById('show_timeline');
-// var show_category = document.getElementById('show_category');
-// var button_timeline = document.getElementById('button_timeline');
-// var button_category = document.getElementById('button_category');
-
-// button_category.onclick = function() {
-//     show_timeline.setAttribute("style","display: none;");
-//     show_category.setAttribute("style","display: ;");
-//     timeline.setAttribute("style","display: none;");
-//     category.setAttribute("style","display: ;");
-// }
-
-// button_timeline.onclick = function() {
-//     show_timeline.setAttribute("style","display: ;");
-//     show_category.setAttribute("style","display: none;");
-//     timeline.setAttribute("style","display: ;");
-//     category.setAttribute("style","display: none;");
-// }
-
-function hide(TagName) {
+function hide(TagName)
+{
     var obj = document.getElementById(TagName);
-    if(obj.style.display == ""){
+    if(obj.style.display == "")
+    {
         obj.setAttribute("style","display: none;");
-    }else{
+    }
+    else
+    {
         obj.setAttribute("style","display: ;");
+    }
+}
+
+function switchTable(TagName1, TagName2)
+{
+    var obj2 = document.getElementById(TagName1);
+    var obj1 = document.getElementById(TagName2);
+    if(obj1.style.dispaly == "none")
+    {
+        obj1.setAttribute("style","display: ;");
+        obj2.setAttribute("style","display: none;");
+    }
+    else if(obj2.style.display == "none")
+    {
+        obj1.setAttribute("style","display: none;");
+        obj2.setAttribute("style","display: ;");
     }
 }
