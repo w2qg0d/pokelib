@@ -1,5 +1,7 @@
 /* timeline */
+
 #timeline {
+	text-align: center;
 	margin: 10px;
 	border: 1px dashed blue;
 }
@@ -10,12 +12,15 @@
 }
 
 #timeline table th {
-	border: 1px dashed blue;
+	width: 250px;
+	height: 70px;
+	text-align: center;
+	/* border: 1px dashed blue; */
 }
 
 #timeline table td {
-	width: 20%;
-	height: 80px;
+	width: 250px;
+	height: 70px;
 	text-align: center;
 	/* border: 1px dashed blue; */
 }
