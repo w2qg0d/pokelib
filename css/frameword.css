@@ -3,7 +3,9 @@
 	margin: 0px;
 }
 
-#container {}
+#container {
+
+}
 
 #header {
 	margin: 10px;
@@ -15,7 +17,9 @@
 	border: 1px dashed blue;
 }
 
-#main {}
+#main {
+	
+}
 
 #menu {
 	float: left;

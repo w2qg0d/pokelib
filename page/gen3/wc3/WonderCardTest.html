@@ -3,14 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" href="css/WonderCardTest.css">
+	<link rel="stylesheet" href="../../../css/WonderCardTest.css">
+	<script type="text/javascript" src="../../../js/interactive.js"></script>
 </head>
 <body>
 	<div id="container">
 		<div id="header"></div>
-		<div id="navbar">
-			<a href="pkmeventg3.html">返回</a>
-		</div>
+		<div id="navbar"></div>
 		<div id="main">
 			<div id="menu"></div>
 			<div id="content">
@@ -33,23 +32,22 @@
 							<!-----------------------------------------------------------------第一部分------------------------------------------------------------------------------>
 							<tr>
 								<td class="b_3s7766ee" style="border-radius: 200px 200px 9px 9px;">
-									<img src="file/g3pkm/0380.png" alt="">
+									<img src="../../../file/img/g3/0380.png" alt="">
 								</td>
 							</tr>
 							<!-----------------------------------------------------------------第二部分------------------------------------------------------------------------------>
 							<tr>
 								<th class="bgc_龙_a194ff br_6">
-									<div id="wc1_显示基本信息">基本信息 · <a id="wc1_对战数据按钮" href="#">对战数据</a></div>
-									<div id="wc1_显示对战数据" style="display: none;"><a id="wc1_基本信息按钮" href="#">基本信息</a> · 对战数据</div>
+									<div><a onclick="switchTable('基本信息', '对战数据')" href="#">基本信息</a> · <a onclick="switchTable('对战数据', '基本信息')" href="#">对战数据</a></div>
 								</th>
 							</tr>
 							<!-----------------------------------------------------------------第三部分------------------------------------------------------------------------------>
 							<tr>
 								<td class="b_3sd00053 br_10">
 									<!---------------------------------------------------------基本信息------------------------------------------------------------------------------>
-									<table id="wc1_基本信息介绍" class="bgc_龙_7766ee br_5500 w_100">
+									<table id="基本信息" class="bgc_龙_7766ee br_5500 w_100">
 										<tr>
-											<td class="bgc_white br_5000"><img class="va_m" src="../../img/ball/精灵球.png" alt="" title="精灵球"></td>
+											<td class="bgc_white br_5000"><img class="va_m" src="../../../file/img/ball/精灵球.png" alt="" title="精灵球"></td>
 											<td class="bgc_white">ラティアス</td>
 											<td class="bgc_white">Lv. 50</td>
 											<td class="bgc_white br_0500"><span class="雌">♀</span></td>
@@ -60,7 +58,7 @@
 										</tr>
 										<tr>
 											<td class="bgc_white" colspan="2">属性</td>
-											<td class="bgc_white" colspan="2"><img class="va_m" src="file/type/龙.png" alt="">&nbsp;<img class="va_m" src="file/type/超能力.png" alt=""></td>
+											<td class="bgc_white" colspan="2"><img class="va_m" src="../../../file/img/type/龙.png" alt="">&nbsp;<img class="va_m" src="../../../file/img/type/超能力.png" alt=""></td>
 										</tr>
 										<tr>
 											<td class="bgc_white" colspan="2">特性</td>
@@ -83,7 +81,7 @@
 										</tr>
 									</table>
 									<!---------------------------------------------------------对战数据------------------------------------------------------------------------------>
-									<table id="wc1_对战数据介绍" class="bgc_龙_7766ee br_5500 w_100" style="display: none;" cellspacing="0">
+									<table id="对战数据" class="bgc_龙_7766ee br_5500 w_100" style="display: none;" cellspacing="0">
 										<tr>
 											<th colspan="8">能力</th>
 										</tr>

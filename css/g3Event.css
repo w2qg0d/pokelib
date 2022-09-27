@@ -1,0 +1,47 @@
+/* timeline */
+#timeline {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#timeline a {
+	text-decoration: none;
+	color: black;
+}
+
+#timeline table th {
+	border: 1px dashed blue;
+}
+
+#timeline table td {
+	width: 20%;
+	height: 80px;
+	text-align: center;
+	/* border: 1px dashed blue; */
+}
+
+/* category
+#category {
+	margin: 10px;
+	border: 1px dashed blue;
+}
+
+#categorytable {
+	margin: 10px;
+	width: 1000px;
+}
+
+#categorytable table {
+	width: 100%;
+}
+
+#categorytable table th {
+	border: 1px dashed blue;
+}
+
+#categorytable table td {
+	width: 20%;
+	height: 80px;
+	text-align: center;
+	border: 1px dashed blue;
+} */
