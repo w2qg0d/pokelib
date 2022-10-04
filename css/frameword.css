@@ -9,12 +9,12 @@
 
 #header {
 	margin: 10px;
-	border: 1px dashed blue;
+	border: 1px solid  #888888;
 }
 
 #navbar {
 	margin: 10px;
-	border: 1px dashed blue;
+	border: 1px solid  #888888;
 }
 
 /* #main {
@@ -24,7 +24,7 @@
 #menu {
 	float: left;
 	margin: 10px;
-	border: 1px dashed blue;
+	border: 1px solid  #888888;
 	width: 20%;
 	height: 100%;
 }
@@ -32,7 +32,7 @@
 #content {
 	float: left;
 	margin: 10px;
-	border: 1px dashed blue;
+	border: 1px solid  #888888;
 	width: 70%;
 	height: 100%;
 }
@@ -40,7 +40,7 @@
 #sidebar {
 	float: left;
 	margin: 10px;
-	border: 1px dashed blue;
+	border: 1px solid  #888888;
 	width: 6.5%;
 	height: 100%;
 }
@@ -48,7 +48,7 @@
 #footer {
 	clear: both;
 	margin: 10px;
-	border: 1px dashed blue;
+	border: 1px solid  #888888;
 }
 
 a {
