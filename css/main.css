@@ -1,6 +1,17 @@
+
 .side{
     height: 500px;
     border-radius:20px;
+}
+
+.main{
+    height: 500px;
+    border-radius:20px;
+    margin: 10px;
+}
+
+body{
+    background: rgb(44, 44, 44);
 }
 
 /* div{
