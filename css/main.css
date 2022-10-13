@@ -2,6 +2,7 @@
 .side{
     height: 500px;
     border-radius:20px;
+    margin: 10px;
 }
 
 .main{
@@ -14,6 +15,10 @@ body{
     background: rgb(44, 44, 44);
 }
 
+
+table{
+    border: "1";
+}
 /* div{
     border: 1px dashed blue;
 } */
